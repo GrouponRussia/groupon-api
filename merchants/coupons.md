@@ -1,5 +1,5 @@
-Partner API
-===========
+Merchant API
+============
 
 Купоны мерчанта
 ---------------
@@ -134,15 +134,17 @@ Partner API
 
 *Ответ сервера:*
 
-    {
-      "order": {
-        "description_permalink": "cultservmoscow3-1",
-        "id": 5152036,
-        "offer": { # ... },
-        "activated": true,
-        "coupon": "1234567/12345"
-      }
-    }
+```json
+{
+  "order": {
+    "description_permalink": "cultservmoscow3-1",
+    "id": 5152036,
+    "offer": { # ... },
+    "activated": true,
+    "coupon": "1234567/12345"
+  }
+}
+```
 
 
 ### Активация купона мерчанта по QR-коду
