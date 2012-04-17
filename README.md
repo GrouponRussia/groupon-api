@@ -114,6 +114,19 @@ curl -d "user[email]=ivan_ivanov@gmail.com&user[password]=secret" http://api.gro
 }
 ```
 
+Описание Partner API
+--------------------
+
+- [Акции](https://github.com/tipugin/groupon-api/blob/master/partners/offers.md)
+- [Пользователи](https://github.com/tipugin/groupon-api/blob/master/partners/users.md)
+
+
+Описание Merchant API
+--------------------
+
+- [Акции](https://github.com/tipugin/groupon-api/blob/master/merchants/offers.md)
+- [Купоны](https://github.com/tipugin/groupon-api/blob/master/merchants/coupons.md)
+
 
 Возможные ошибки
 ----------------
