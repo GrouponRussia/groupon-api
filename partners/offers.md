@@ -137,9 +137,9 @@ Partner API
           "latitude": 55.744220459861
         }
       ]
-      },
-      "id": 326056,
-      "url": "http://groupon.ru/moscow/evdokimovshow"
-    }
+    },
+    "id": 326056,
+    "url": "http://groupon.ru/moscow/evdokimovshow"
+  }
 }
 ```
