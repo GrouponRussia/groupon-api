@@ -42,14 +42,13 @@ Merchant API
 ```json
 {
   "orders": [
-    {
+     {
       "description_permalink": "cultservmoscow3-1",
       "id": 5152036,
-      "offer": { # ... },
+      "offer_id": 12345,
       "activated": false,
       "coupon": "1234567/12345"
-    },
-    # ...
+    }
   ]
 }
 ```
@@ -72,7 +71,7 @@ Merchant API
   "order": {
     "description_permalink": "cultservmoscow3-1",
     "id": 5152036,
-    "offer": { # ... },
+    "offer_id": 12345,
     "activated": false,
     "coupon": "1234567/12345"
   }
@@ -97,7 +96,7 @@ Merchant API
   "order": {
     "description_permalink": "cultservmoscow3-1",
     "id": 5152036,
-    "offer": { # ... },
+    "offer_id": 12345,
     "activated": false,
     "coupon": "1234567/12345"
   }
@@ -139,8 +138,8 @@ Merchant API
   "order": {
     "description_permalink": "cultservmoscow3-1",
     "id": 5152036,
-    "offer": { # ... },
-    "activated": true,
+    "offer_id": 12345,
+    "activated": false,
     "coupon": "1234567/12345"
   }
 }
@@ -164,8 +163,8 @@ Merchant API
   "order": {
     "description_permalink": "cultservmoscow3-1",
     "id": 5152036,
-    "offer": { # ... },
-    "activated": true,
+    "offer_id": 12345,
+    "activated": false,
     "coupon": "1234567/12345"
   }
 }
