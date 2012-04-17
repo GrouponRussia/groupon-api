@@ -19,7 +19,7 @@ Groupon API построен поверх протокола HTTP с испол�
 
 Примером использования Partner API могут являться сайты-агрегаторы купонов.
 
-На данный момент предоставляем доступ к API в индивидуальном порядке.
+На данный момент мы предоставляем доступ к API в индивидуальном порядке.
 
 
 Авторизация
@@ -114,18 +114,19 @@ curl -d "user[email]=ivan_ivanov@gmail.com&user[password]=secret" http://api.gro
 }
 ```
 
-Описание Partner API
---------------------
-
-- [Акции](https://github.com/tipugin/groupon-api/blob/master/partners/offers.md)
-- [Пользователи](https://github.com/tipugin/groupon-api/blob/master/partners/users.md)
-
 
 Описание Merchant API
 --------------------
 
 - [Акции](https://github.com/tipugin/groupon-api/blob/master/merchants/offers.md)
 - [Купоны](https://github.com/tipugin/groupon-api/blob/master/merchants/coupons.md)
+
+
+Описание Partner API
+--------------------
+
+- [Акции](https://github.com/tipugin/groupon-api/blob/master/partners/offers.md)
+- [Пользователи](https://github.com/tipugin/groupon-api/blob/master/partners/users.md)
 
 
 Возможные ошибки
