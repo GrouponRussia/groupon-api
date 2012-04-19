@@ -26,6 +26,7 @@ Reseller API
 }
 ```
 
+
 ### Подробная информация о купленном купоне
 
 #### GET /resellers/coupons/#{id}.json
