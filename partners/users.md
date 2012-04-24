@@ -45,7 +45,8 @@ Partner API
   "user": {
     "email": "atipugin@darberry.ru",
     "password": "chifyproc",
-    "id": 27256253
+    "id": 27256253,
+    "autosignin_token": "fb1d033f22ea9becc81f94e79c38b85a7f0ca7ed"
   }
 }
 ```
@@ -57,3 +58,4 @@ Partner API
 - ``email`` - адрес электронной почты пользователя
 - ``password`` - пароль
 - ``id`` - ID пользователя
+- ``autosignin_token`` - токен для автоматической авторизации
