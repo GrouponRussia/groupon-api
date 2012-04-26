@@ -127,30 +127,30 @@ curl -d "user[email]=ivan_ivanov@gmail.com&user[password]=secret" http://api.gro
 Описание Common API
 --------------------
 
-- [Города](https://github.com/atipugin/groupon-api/blob/master/common/cities.md)
+- [Города](https://github.com/GrouponRussia/groupon-api/blob/master/common/cities.md)
 
 
 Описание Merchant API
 --------------------
 
-- [Акции](https://github.com/atipugin/groupon-api/blob/master/merchants/offers.md)
-- [Купоны](https://github.com/atipugin/groupon-api/blob/master/merchants/coupons.md)
+- [Акции](https://github.com/GrouponRussia/groupon-api/blob/master/merchants/offers.md)
+- [Купоны](https://github.com/GrouponRussia/groupon-api/blob/master/merchants/coupons.md)
 
 
 Описание Partner API
 --------------------
 
-- [Акции](https://github.com/atipugin/groupon-api/blob/master/partners/offers.md)
-- [Пользователи](https://github.com/atipugin/groupon-api/blob/master/partners/users.md)
+- [Акции](https://github.com/GrouponRussia/groupon-api/blob/master/partners/offers.md)
+- [Пользователи](https://github.com/GrouponRussia/groupon-api/blob/master/partners/users.md)
 
 
 Описание Reseller API
 ---------------------
 
-- [Пользователи](https://github.com/atipugin/groupon-api/blob/master/resellers/users.md)
-- [Купоны](https://github.com/atipugin/groupon-api/blob/master/resellers/coupons.md)
-- [Акции](https://github.com/atipugin/groupon-api/blob/master/resellers/offers.md)
-- [Платежи](https://github.com/atipugin/groupon-api/blob/master/resellers/payments.md)
+- [Пользователи](https://github.com/GrouponRussia/groupon-api/blob/master/resellers/users.md)
+- [Купоны](https://github.com/GrouponRussia/groupon-api/blob/master/resellers/coupons.md)
+- [Акции](https://github.com/GrouponRussia/groupon-api/blob/master/resellers/offers.md)
+- [Платежи](https://github.com/GrouponRussia/groupon-api/blob/master/resellers/payments.md)
 
 
 Возможные ошибки
