@@ -24,7 +24,7 @@ Reseller API
     "id": 22141807,
     "sum": 2500.0,
     "offer_id": 12345,
-    "offer_description_id": 54321
+    "option_id": 54321
   }
 }
 ```
@@ -34,7 +34,7 @@ Reseller API
 
 #### POST /offers/#{offer_id}/payments/#{id}/confirm
 
-Подтверждает ранее созданный платеж для оплаты купона и возвращает подробную информацию о купоне.
+Подтверждает ранее созданный платеж для оплаты купона и возвращает подробную информацию о платеже.
 
 **Параметры:**
 
@@ -45,12 +45,11 @@ Reseller API
 
 ```json
 {
-  "order": {
-    "description_permalink": "cultservmoscow3-1",
-    "id": 5152036,
+  "payment": {
+    "id": 22141807,
+    "sum": 2500.0,
     "offer_id": 12345,
-    "activated": false,
-    "coupon": "1234567/12345"
+    "option_id": 54321
   }
 }
 ```
