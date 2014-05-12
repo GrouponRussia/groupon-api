@@ -55,6 +55,7 @@ Partner API
           "name": "Развлечения и спорт"
         },
         "multideal": true,
+        "active_to": "2014-05-12",
         "sub_category": {
           "name": "NEW Концерт/Шоу"
         },
@@ -126,6 +127,7 @@ Partner API
         "name": "Развлечения и спорт"
       },
       "multideal": true,
+      "active_to": "2014-05-12",
       "sub_category": {
         "name": "NEW Концерт/Шоу"
       },
@@ -150,6 +152,7 @@ Partner API
 
 - ``deal`` - описание акции
     - ``multideal`` - является ли акция мультидилом?
+    - ``active_to`` - дата последнего размещения
     - ``options`` - варианты акции
         - ``id`` - ID варианта акции
         - ``title`` - название варианта акции
