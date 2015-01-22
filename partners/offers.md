@@ -51,6 +51,9 @@ Partner API
             "small": "http://i1.grouponcdn.ru/system/offers/000/077/336/179511/small_jpg.jpg?1334590278"
           }
         ],
+        "merchant": {
+          "name": "Интернет-магазин Best Nespresso"
+        },
         "category": {
           "name": "Развлечения и спорт"
         },
@@ -61,10 +64,16 @@ Partner API
         },
         "places": [
           {
-            "metro_station": null,
-            "address": "Берсеневская наб., д. 20/2",
-            "longitude": 37.6101855933667,
-            "latitude": 55.744220459861
+            "address": "Ул. Гончарная, д. 38",
+             "metro_station": {
+               "name": "Таганская",
+               "latitude": 55.7404243,
+               "longitude": 37.6533613
+             },
+             "latitude": 55.740887,
+             "longitude": 37.650621,
+             "phone": "+7 926 153-90-65",
+             "opening_hours": "пн. — пт. 10:00 — 20:00"
           }
         ]
         },
@@ -123,6 +132,9 @@ Partner API
           "small": "http://i1.grouponcdn.ru/system/offers/000/077/336/179511/small_jpg.jpg?1334590278"
         }
       ],
+      "merchant": {
+        "name": "Интернет-магазин Best Nespresso"
+      },
       "category": {
         "name": "Развлечения и спорт"
       },
@@ -133,10 +145,16 @@ Partner API
       },
       "places": [
         {
-          "metro_station": null,
-          "address": "Берсеневская наб., д. 20/2",
-          "longitude": 37.6101855933667,
-          "latitude": 55.744220459861
+            "address": "Ул. Гончарная, д. 38",
+             "metro_station": {
+               "name": "Таганская",
+               "latitude": 55.7404243,
+               "longitude": 37.6533613
+             },
+             "latitude": 55.740887,
+             "longitude": 37.650621,
+             "phone": "+7 926 153-90-65",
+             "opening_hours": "пн. — пт. 10:00 — 20:00"
         }
       ]
     },
@@ -170,10 +188,13 @@ Partner API
         - ``address`` - адрес места проведения
         - ``latitude`` - широта
         - ``longitude`` - долгота
+        - ``phone`` - телефон
+        - ``opening_hours`` - время работы
         - ``metro_station`` - станция метро
             - ``name`` - название станции метро
             - ``latitude`` - широта
             - ``longitude`` - долгота
+
     - ``images`` - список картинок к акции
         - ``promo`` - стандартный размер
         - ``large_promo`` - большой размер

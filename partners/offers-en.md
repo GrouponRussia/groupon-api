@@ -51,6 +51,9 @@ Returns list of all deals in specific city.
             "small": "http://i1.grouponcdn.ru/system/offers/000/077/336/179511/small_jpg.jpg?1334590278"
           }
         ],
+        "merchant": {
+          "name": "Интернет-магазин Best Nespresso"
+        },
         "category": {
           "name": "Развлечения и спорт"
         },
@@ -60,10 +63,16 @@ Returns list of all deals in specific city.
         },
         "places": [
           {
-            "metro_station": null,
-            "address": "Берсеневская наб., д. 20/2",
-            "longitude": 37.6101855933667,
-            "latitude": 55.744220459861
+            "address": "Ул. Гончарная, д. 38",
+             "metro_station": {
+               "name": "Таганская",
+               "latitude": 55.7404243,
+               "longitude": 37.6533613
+             },
+             "latitude": 55.740887,
+             "longitude": 37.650621,
+             "phone": "+7 926 153-90-65",
+             "opening_hours": "пн. — пт. 10:00 — 20:00"
           }
         ]
         },
@@ -122,6 +131,9 @@ Returns detailed information about specific deal.
           "small": "http://i1.grouponcdn.ru/system/offers/000/077/336/179511/small_jpg.jpg?1334590278"
         }
       ],
+      "merchant": {
+        "name": "Интернет-магазин Best Nespresso"
+      },
       "category": {
         "name": "Развлечения и спорт"
       },
@@ -130,12 +142,18 @@ Returns detailed information about specific deal.
         "name": "NEW Концерт/Шоу"
       },
       "places": [
-        {
-          "metro_station": null,
-          "address": "Берсеневская наб., д. 20/2",
-          "longitude": 37.6101855933667,
-          "latitude": 55.744220459861
-        }
+           {
+             "address": "Ул. Гончарная, д. 38",
+              "metro_station": {
+                "name": "Таганская",
+                "latitude": 55.7404243,
+                "longitude": 37.6533613
+              },
+              "latitude": 55.740887,
+              "longitude": 37.650621,
+              "phone": "+7 926 153-90-65",
+              "opening_hours": "пн. — пт. 10:00 — 20:00"
+           }
       ]
     },
     "id": 326056,
@@ -167,6 +185,8 @@ Response fields description:
         - ``address`` - venue address
         - ``latitude`` - latitude coordinate
         - ``longitude`` - longitude coordinate
+        - ``phone`` - phone
+        - ``opening_hours`` - work time
         - ``metro_station`` - closest metro station
             - ``name`` - metro station name
             - ``latitude`` - latitude coordinate
