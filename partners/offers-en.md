@@ -63,6 +63,7 @@ Returns list of all deals in specific city.
         },
         "places": [
           {
+            "title": "Гончарная улица",
             "address": "Ул. Гончарная, д. 38",
              "metro_station": {
                "name": "Таганская",
@@ -143,6 +144,7 @@ Returns detailed information about specific deal.
       },
       "places": [
            {
+             "title": "Гончарная улица",
              "address": "Ул. Гончарная, д. 38",
               "metro_station": {
                 "name": "Таганская",
@@ -182,6 +184,7 @@ Response fields description:
         - ``name`` - category name
     - ``title`` - deal title
     - ``places`` - deal venues
+        - ``title`` -  venue name
         - ``address`` - venue address
         - ``latitude`` - latitude coordinate
         - ``longitude`` - longitude coordinate
