@@ -51,6 +51,7 @@ Merchant API
           "name": "Развлечения и спорт"
         },
         "multideal": true,
+        "active_from": "2014-05-12",
         "active_to": "2014-05-12",
         "sub_category": {
           "name": "NEW Концерт/Шоу"
@@ -123,6 +124,7 @@ Merchant API
         "name": "Развлечения и спорт"
       },
       "multideal": true,
+      "active_from": "2014-05-12",
       "active_to": "2014-05-12",
       "sub_category": {
         "name": "NEW Концерт/Шоу"
@@ -182,6 +184,7 @@ Merchant API
 
 - ``deal`` - описание акции
     - ``multideal`` - является ли акция мультидилом?
+    - ``active_from`` - дата первого размещения
     - ``active_to`` - дата последнего размещения
     - ``options`` - варианты акции
         - ``id`` - ID варианта акции
