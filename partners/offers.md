@@ -61,6 +61,7 @@ Partner API
           "name": "Развлечения и спорт"
         },
         "multideal": true,
+        "active_from": "2014-05-12",
         "active_to": "2014-05-12",
         "sub_category": {
           "name": "NEW Концерт/Шоу"
