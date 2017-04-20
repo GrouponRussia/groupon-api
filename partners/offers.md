@@ -83,7 +83,10 @@ Partner API
         ]
         },
         "id": 326056,
-        "url": "http://groupon.ru/moscow/evdokimovshow"
+        "url": "http://groupon.ru/moscow/evdokimovshow",
+        "on_sale_from": "2017-04-20",
+         "global_id": "lazernaya7epilyaciya0-blackmed",
+         "channel": "common"
     },
     # ...
   ]
@@ -110,6 +113,7 @@ Partner API
       "title": "Билет на концерт Evdokimov Show с программой «Я сделал всех!» в Государственном московском театре эстрады",
       "mobile_title": "Кафе Medoc",
       "delivery_title": "Ужин в кафе европейской кухни. <b>Скидка&nbsp;до&nbsp;49%</b>",
+      "promo": "Условия акции"
       "age_restriction": 18,
       "options": [
         {
@@ -195,6 +199,7 @@ Partner API
     - ``title`` - название акции
     - ``mobile_title`` -  заголовок для мобильной версии сайта
     - ``delivery_title`` - заголовок для рассылок
+    - ``promo`` -  условия акции
     - ``age_restriction`` - ограничение в возрасте
     - ``places`` - список мест проведения акции
         - ``title`` - название места
@@ -218,3 +223,6 @@ Partner API
         - ``name`` - название мерчанта
 - ``url`` - ссылка на акцию
 - ``id`` - ID акции
+- ``on_sale_to`` - дата размещения
+- ``global_id`` - пермалинк акции
+- ``channel`` - вкладка на сайте (common - акции дня, getaways - туризм и т.д.)
